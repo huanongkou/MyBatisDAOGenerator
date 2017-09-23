@@ -41,6 +41,10 @@ ClassLoarder下的getResourceAsStream不需要绝对路径
 >You can't get a File object (since it's no longer a file once it's in the .jar), but you should be able to get it as a stream via getResourceAsStream(path);, where path is the complete path to your class.
 
 
+### 4.TODOList
+1. 可修改数据库配置文件,检测连接是否可用
+2. 补充帮助文档
+ 
 **参考资料**
 * [java路径全接触](http://note.youdao.com/noteshare?id=20023441e3261122ffc2ba0df823e1cb)
 * [Can't find resource file after exporting to a runnable JAR](https://stackoverflow.com/questions/18151072/cant-find-resource-file-after-exporting-to-a-runnable-jar)
